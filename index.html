@@ -2,9 +2,83 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <!-- FRAMEWORKS -->
+    <script src="scripts/jquery.js" charset="utf-8"></script>
+    <script src="scripts/bootstrap.min.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="./styles/yeti.css" charset="utf-8">
+    <script src="scripts/main.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" href="./styles/style.css" charset="utf-8">
     <title>LTIA-Commerce</title>
   </head>
   <body>
-    LTIA-Commerce
+    <!-- LTIA-Commerce -->
+    <header>
+      <nav class="navbar navbar-default">
+        <!-- Vai ocupar o espaço inteiro -->
+         <div class="container-fluid">
+            <div class="navbar-header">
+              <a class = "navbar-brand" href="index.html">LTIA-Commerce</a>
+            </div>
+            <div class="collase navbar-collapse">
+               <ul class="nav navbar-nav">
+                 <li class="active"><a href="#">Produtos</a></li>
+                 <li><a disable href="#">Link Inativo</a></li>
+                 <li><a disable href="#">Link Inativo</a></li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <nav class="navbar navbar-breadcrumb">
+        <ul class="breadcrumb"> <!-- Barra de Navegação -->
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Home</a></li>
+          <li class="active">Produtos</li> <!-- pagina atual-->
+        </ul>
+      </nav>
+        <section class="body-page grid">
+          <aside class="category-products">
+            <div class="panel panel-default">
+              <div class="panel-heading">Categorias</div>
+              <div class="lisy-group">
+                <a href="#" class=" active list-group-item">Nodes</a>
+                <a href="#" class="list-group-item">Spammers do Develop</a>
+                <a href="#" class="list-group-item">Ltia-Gourmet</a>
+              </div>
+            </div>
+          </aside>
+          <div class="list-products">
+            <h1 class="list-products-tittle">Spammers do Develop</h1>
+            <div class="card panel panel-default">
+              <div class="panel-heading">
+                <img src="./assets/slack.jpg" alt="" />
+              </div>
+              <div class="panel-body">
+                Spam de Nodes do slackbot --'
+              </div>
+            </div>
+            
+            <div class="card panel panel-default">
+              <div class="panel-heading">
+                <img src="./assets/slack.jpg" alt="" />
+              </div>
+              <div class="panel-body">
+                Spam de Nodes do slackbot --'
+              </div>
+            </div>
+
+            <div class="card panel panel-default">
+              <div class="panel-heading">
+                <img src="./assets/slack.jpg" alt="" />
+              </div>
+              <div class="panel-body">
+                Spam de Nodes do slackbot --'
+              </div>
+            </div>
+          </div>
+        </section>
+
+    </header>
   </body>
 </html>
